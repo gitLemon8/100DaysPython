@@ -10,7 +10,7 @@ value = int(input("Your bid: "))
 bidders_bid[name] = value
 
 isContinue = input("Are there any other bidders? Type 'yes' or 'no'\n\t")
-while(isContinue == "yes"):
+while(isContinue.lower() == "yes"):
     print("\n" * 100)
     name = input("Your name: ")
     value = int(input("Your bid: "))
